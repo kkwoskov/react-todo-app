@@ -1,0 +1,299 @@
+    1  exit 0
+    2  ls
+    3  ls -la
+    4  nano .bash_history 
+    5  init 0
+    6  ip a
+    7  ping onet.pl
+    8  exit
+    9  vim
+   10  apt install vim
+   11  docker images
+   12  docker run hello-world
+   13  docker hello-world
+   14  docker run hello-world
+   15  ping onet.pl
+   16  ip a
+   17  ping onet.pl
+   18  reboot 
+   19  docker stop mariadb 
+   20  docker stop romantic_boyd 
+   21  docker rm mariadb 
+   22  ping onet.pl
+   23  docker run hello-world
+   24  docker run hello-world
+   25  docker pull mariadb
+   26  docker pull node
+   27  docker pull mardiadb:10.2.16
+   28  docker pull mariadb:10.2.16
+   29  docker pull node:8
+   30  clear
+   31  docker ps
+   32  docker ps -a
+   33  w
+   34  docker images
+   35  df -h
+   36  docker images
+   37  docker rmi node
+   38  docker rmi node:8
+   39  docker rmi fce289e99eb9
+   40  docker network ls
+   41  docker volume ls
+   42  docker image inspect
+   43  docker image inspect node
+   44  docker image inspect hello-world
+   45  docker image inspect hello-world:latest 
+   46  docker contaner inspect hello-world
+   47  docker container inspect serene_kalam 
+   48  ocker run -d -e MYSQL_ALLOW_EMPTY_PASSWORD=true --rm mariadb
+   49  docker run -d -e MYSQL_ALLOW_EMPTY_PASSWORD=true --rm mariadb
+   50  docker pd
+   51  docker ps
+   52  docker exec -it boring_bohr /bin/bash
+   53  docker exec -it boring_bohr mysqldump
+   54  docker exec -it boring_bohr ls
+   55  docker exec -it boring_bohor mysqldump -u user -p pass db>jdd.sql
+   56  docker exec -it boring_bohr mysqldump -u user -p pass db>jdd.sql
+   57  docker stop boring_bohr
+   58  docker rm boring_bohr
+   59  docker ps
+   60  docker ps -a
+   61  docker run -d -e SEAFILE_SERVER_HOSTNAME=127.0.0.1 --name seafile
+   62  docker run -d -e SEAFILE_SERVER_HOSTNAME=127.0.0.1 --name seafile -p80:80 seafileltd/seafile
+   63  docker logs seafile 
+   64  docker logs --seaflie
+   65  docker logs 
+   66  ip a
+   67  docker logs seafile 
+   68  ip a
+   69  docker stop seafile
+   70  docker ps
+   71  docker ps -a
+   72  docker start seafile
+   73  docker stop seafile
+   74  docker run -d -e SEAFILE_SERVER_HOSTNAME=127.0.0.1 --name seafile -p80:80 seafileltd/seafile
+   75  docker rm -f seafile 
+   76  clean
+   77  clear
+   78  docker run -p 1080:80 -p 1025:25 --rm dszymczuk/maildev
+   79  docker ps -a
+   80  docker run -d -p 8080:8080 --name jira --rm cptactionhank/atlassian-jira
+   81  docker logs -f jira
+   82  docker stop jira
+   83  docker run -p 8080:8080 -p 50000:50000
+   84  docker run -p 8080:8080 -p 50000:50000 --rm jenkins/jenkins
+   85  docker run -d -p 8080:8080 -p 50000:50000 --rm jenkins/jenkins
+   86  docker ps
+   87  docker logs
+   88  docker logs pensive_darwin 
+   89  docker stop pensive_darwin 
+   90  clear
+   91  docker rm $(docker ps -aq)
+   92  docker rm -f$(docker ps -aq)
+   93  docker rm -f $(docker ps -aq)
+   94  docker volume create testowy
+   95  docker volume ls
+   96  docker inspect testowy 
+   97  docker volume create jenkins_data
+   98  docker run -p 9090:8080 -p 50000:50000 -v jenkins_data:/var/jenkins_home jenkins/jenkins
+   99  cd /var/lib/docker/
+  100  ls
+  101  cd volumes/
+  102  ls
+  103  cd jenkins_data/
+  104  ls
+  105  cd _data/
+  106  ls
+  107  docker run -p 9090:8080 -p 50000:50000 -v jenkins_data:/var/jenkins_home jenkins/jenkins
+  108  cd ~/
+  109  docker stop 
+  110  docker ps
+  111  docker ps -a
+  112  docker rm -f $(docker ps -aq)
+  113  docker volume ls
+  114  docker volume rm jenkins_data 
+  115  docker volume rm testowy 
+  116  docker volume ls
+  117  docker volume ls
+  118  clear
+  119  docker run -p 8080:8080 -d --rm --name jira cptactionhank/atlassian-jira
+  120  docker volume ls
+  121  docker images ls
+  122  docker ps
+  123  docker stop 4688c3e92588
+  124  docker volume ls
+  125  docker inspect 
+  126  docker volume prune
+  127  docker run -d --name jira2 cptactionhank/atlassian-jira
+  128  docker ps
+  129  docker volume ls
+  130  docker stop jira2
+  131  docker volume ls
+  132  docker rm jira2 
+  133  docker volume 
+  134  docker volume ls
+  135  docker rm -v jira2
+  136  docker pull phpmyadmin/phpmyadmin
+  137  a
+  138  docker volume create customer_databes
+  139  docker network create customer net
+  140  docker network create customer_net
+  141  docker pull mariadb:10.2.15
+  142  docker run -d --name customerdb --network customer_net -v customer_database:/var/lib/mysql
+  143  docker run -d --name customerdb --network customer_net -v customer_database:/var/lib/mysql -e MYSQL_ROOT_PASWORD=1234
+  144  docker run -d --name customerdb --network customer_net -v customer_database:/var/lib/mysql -e MYSQL_ROOT_PASWORD=1234 mariadb:10.2.15
+  145  docker -ps
+  146  docker ps
+  147  docker run -d --name customerdb --network customer_net -v customer_database:/var/lib/mysql -e MYSQL_ROOT_PASWORD=1234 mariadb:10.2.15
+  148  docker ps
+  149  docker ps
+  150  docker run -d --name customerdb --network customer_net -v customer_database:/var/lib/mysql -e MYSQL_ROOT_PASWORD=1234 mariadb:10.2.15
+  151  docker ps
+  152  docker ps -a
+  153  docker rm customerdb 
+  154  docker run -d --name customerdb --network customer_net -v customer_database:/var/lib/mysql -e MYSQL_ROOT_PASWORD=1234 mariadb:10.2.15
+  155  docker ps
+  156  docker ps
+  157  docker ps -a
+  158  docker ps -a
+  159  docker rm  customerdb 
+  160  docker run -d --name customerdb --network customer_net -v customer_database:/var/lib/mysql -e MYSQL_ROOT_PASWORD=1234 mariadb:10.2.15
+  161  docker ps
+  162  docker logs customerdb 
+  163  docker run -d --name customerdb --network customer_net -v customer_database:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=1234 mariadb:10.2.15
+  164  docker rm  customerdb 
+  165  docker run -d --name customerdb --network customer_net -v customer_database:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=1234 mariadb:10.2.15
+  166  docker logs
+  167  docker logs customerdb 
+  168  docker ps
+  169  docker run -d --network customer_net -e PMA_HOST=customerdb -p 8080:80 phpmyadmin/phpmyadmin
+  170  docker ps
+  171  docker log hungry_brattain
+  172  docker logs hungry_brattain 
+  173  dockere pull mariadb:10.2.16
+  174  docker pull mariadb:10.2.16
+  175  docker stop hungry_brattain customerdb 
+  176  docker rm hungry_brattain customerdb 
+  177  docker volume ls
+  178  docker run -d --name customerdbnew --network customer_net -v customer_database:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=1234 mariadb:10.2.16
+  179  docker ps
+  180  docker run --network customer_net -d -e PMA_HOST=customerdbnew -p8080:80 phpmyadmin/phpmyadmin
+  181  docker ps
+  182  docker run -p 80:80 -d nginx
+  183  docker rm -f customerdbnew 
+  184  docker ps
+  185  docker stop  xenodochial_wiles 
+  186  docker rm  xenodochial_wiles 
+  187  docker ps
+  188  vim index.html
+  189  mkdir static-content
+  190  mv index.html static-content/
+  191  docker run -d -p 80:80 -v $(pwd)/static-content/index.html:/usr/share/nginx/html nginx
+  192  docker stop musing_cori 
+  193  docker run -d -p 80:80 -v $(pwd)/static-content/index.html:/usr/share/nginx/html nginx
+  194  docker run -d -p 80:80 -v $(pwd)/static-content:/usr/share/nginx/html nginx
+  195  ls
+  196  cd static-content/
+  197  ls
+  198  vim index.html 
+  199  cd ../
+  200  docker rm -f frosty_dubinsky jovial_chebyshev musing_cori vibrant_lumiere 
+  201  docker -run --rm --net none alpine ip addr
+  202  docker -run --rm --net none alpine ip addr
+  203  docker -run --rm --net none alpine ip addr
+  204  docker -run --rm --net none alpine ip addr
+  205  docker run --rm --net none alpine ip addr
+  206  docker run --rm --net none alpine ping 8.8.8.8
+  207  docker run --rm --net none xmartlabs/htpasswd
+  208  docker run --rm --net none xmartlabs/htpasswd mmx haslo >htpaswd.txt
+  209  vim htpaswd.txt 
+  210  docker run --rm --net bridge alpine ip addr
+  211  docker run --rm --net bridge alpine ping onet.pl
+  212  ip a
+  213  docker run --rm --hostname  mojkontener --add-host repo.pl:127.0.0.1 alpine cat /etc/hosts
+  214  docker  ps
+  215  docker run -d -p 80 nginx
+  216  docker ps
+  217  docker stop gracious_ritchie 
+  218  docker run -d -p 80:80 nginx
+  219  docker rm -f $(docker ps -aq)
+  220  docker run -d -P nginx
+  221  docker run expose 4000 -P -d nginx
+  222  docker network create php
+  223  docker run --name mariadb --network php -e MYSQL_ROOT_PASSWORD=1234-d mariadb
+  224  docker run --name mariadb --network php -e MYSQL_ROOT_PASSWORD=1234 -d mariadb
+  225  docker run --name mariadb --network php -e MYSQL_ROOT_PASSWORD=1234 -d mariadb
+  226  docker run -it --network php --rm mariadb mysql -hmardiadb -uroot -p
+  227  docker run --name mariadb --network php -e MYSQL_ROOT_PASSWORD=1234 -d mariadb
+  228  docker rm romantic_boyd 
+  229  docker network prune 
+  230  docker pull elasticsearch:7.0.0
+  231  docker network creat esearch
+  232  docker network create esearch
+  233  docker run -d --net esearch --net-alias esearch-alias -e "discover.type=single-node" elastitcsearch:7.0.0
+  234  docker run -d --net esearch --net-alias esearch-alias -e "discover.type=single-node" elasticsearch:7.0.0
+  235  docker inspect esearch 
+  236  docker rm sharp_shannon 
+  237  docker run -d --network esearch --net-alias esearch-alias -e "discover.type=single-node" elasticsearch:7.0.0
+  238  docker inspect esearch 
+  239  docker ps
+  240  docker rm mariadb
+  241  docker stop mariadb
+  242  docker pull node
+  243  docker images
+  244  docker volume ls
+  245  docker images
+  246  mkdir build
+  247  cd build/
+  248  cd mkdir 1
+  249  mkdir 1
+  250  cd 1
+  251  ls
+  252  vim Dockerfile
+  253  docker build -t htop .
+  254  vim Dockerfile
+  255  docker build -t htop .
+  256  docker images
+  257  docker run -it /bin/bash
+  258  docker run -it /bin/bash htop
+  259  htop
+  260  docker run --rm -it htop htop
+  261  docker run --rm -it htop /bin/bash
+  262  docker build -t htop:1 .
+  263  docker image
+  264  docker image
+  265  docker images|grep htop
+  266  vim cd ../
+  267  cd ../
+  268  ls
+  269  mkdir 2
+  270  cd 2/
+  271  git clone https://github.com/kkwoskov/react-todo-app.git
+  272  ls
+  273  cd react-todo-app/
+  274  ls
+  275  vim Dockerfile
+  276  docker build -t react-app:1 .
+  277  docker run -p 3000:3000 -v $(pwd)/src:/usr/app/src -v $(pwd)/public:/usr/app/public --rm react-app:1
+  278  vim Dockerfile 
+  279  docker run -p 3000:3000 -v $(pwd)/src:/usr/app/src -v $(pwd)/public:/usr/app/public --rm react-app:2
+  280  vim Dockerfile 
+  281  docker build -t react-app:2
+  282  docker build -t react-app:2
+  283  docker build -t react-app
+  284  docker build -t react-app:2 .
+  285  docker run -p 3000:3000 -v $(pwd)/src:/usr/app/src -v $(pwd)/public:/usr/app/public --rm react-app:2
+  286  docker run -p 3000:3000 -v $(pwd)/src:/usr/app/src -v $(pwd)/public:/usr/app/public --rm react-app:2
+  287  docker run -p 3000:3000  --rm react-app:2
+  288  poweroff
+  289  ls
+  290  cd build/
+  291  ls
+  292  cd 2/
+  293  ls
+  294  cd react-todo-app/
+  295  ls
+  296  vim Dockerfile 
+  297  vim Dockerfile 
+  298  history 
+  299  history > docker-history.txt
